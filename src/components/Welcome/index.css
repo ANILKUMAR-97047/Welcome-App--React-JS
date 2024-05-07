@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f0bb03;
+  font-size: 35px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+
+.greeting {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  padding: 10px;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 55px;
+  }
+  .greeting {
+    font-size: 27px;
+  }
+  .button {
+    font-size: 22px;
+    padding: 15px;
+  }
+}
